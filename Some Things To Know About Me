@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>COSC 107 Student Page </title>
+  <style>
+   h1 {
+    color:crimson; 
+    font-size:48pt; 
+    }
+
+    h2{
+      color:aquamarine;
+      font-size:20pt;
+      background-color:gray;
+    }
+    p{
+      font-size:14pt;
+      
+    }
+    h3 {color:darkgreen;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+    ol{color:darkgreen;
+       font-family:'Courier New', Courier, monospace }
+    span
+    {
+      color:orange;
+        }
+  </style>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<!-- Student Name COSC 107 Lab 7 -->
+<h1>Some things to know about me</h1>
+<h2>by Generic COSC 107 Student</h2>
+<p> Welcome to my <span style=font-variant:small-caps;>web page.</span> <strong>Below you will find more information about me</strong></p>
+
+<h3>My favorite things about fall</h3>
+  <ol type="A">
+    <li>Leaves changing
+    </li>
+    <li>Cooler weather</li>
+    <li>Great holidays
+	<ul style= "color:brown; font-size:24pt";>
+	<li>Fall break</li>
+	<li>Thanksgiving</li>
+	<li>Labor Day</li>
+	</ul>
+</li>
+  </ol>
+<h3 style="color:blue; font-size:24pt";>Things I Really Like About Birmingham</h3>
+ <ol type="a">
+	<li>Samford University</li>
+	<li>Great restaurants</li>
+	<li><span>Hiking</span></li>
+</ol>
+<h3>Favorite Books</h3>
+  <ol type="I">
+    <li><span>Pride and Prejudice</span></li>
+    <li><a href="https://en.wikipedia.org/wiki/Sherlock_Holmes">Sherlock Holmes</a></li>
+    <li>The Neverending Story</li>
+  </ol>
+
+
+<h2>Here is an interesting image of Sherlock Holmes that I found</h2>
+<img src="https://cdn.pixabay.com/photo/2020/08/18/18/39/sherlock-holmes-5499030_960_720.jpg" width=350>
+<p>The end of my web page</p>
+</body>
+
+</html>
